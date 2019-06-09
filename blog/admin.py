@@ -2,5 +2,5 @@
 from django.contrib import admin
 from .models import Post
 
-# Postモデルを管理者ページに登録。
+# Register "Post" model.
 admin.site.register(Post)
