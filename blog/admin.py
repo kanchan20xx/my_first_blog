@@ -1,3 +1,6 @@
+# 管理者ページ
 from django.contrib import admin
+from .models import Post
 
-# Register your models here.
+# Postモデルを管理者ページに登録。
+admin.site.register(Post)
